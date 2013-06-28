@@ -136,13 +136,13 @@
 ;; (require 'jade-mode)
 (add-to-list 'auto-mode-alist '("\\.jade$" . jade-mode))
 
-(add-to-list 'load-path
-	     "~/.emacs.d/yasnippet")
-(require 'yasnippet)
-(setq yas-snippet-dirs
-      '("~/.emacs.d/snippets"            ;; personal snippets
-        ))
-(yas-global-mode 1)
+;(add-to-list 'load-path
+;	     "~/.emacs.d/yasnippet")
+;(require 'yasnippet)
+;(setq yas-snippet-dirs
+;      '("~/.emacs.d/snippets"            ;; personal snippets
+;        ))
+;(yas-global-mode 1)
 
 ;; org-mode
 (setq org-todo-keywords
