@@ -31,6 +31,8 @@
 ;(when (eq system-type 'darwin)
 ;  (setq mac-command-modifier 'meta)
 ;  (setq mac-option-modifier 'super))
+(when (eq system-type 'darwin)
+  (setq mac-option-modifier 'meta))
 
 ;; 一打开就启用 text 模式。 
 (setq default-major-mode 'text-mode)
