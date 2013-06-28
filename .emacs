@@ -94,12 +94,10 @@
 (global-set-key (kbd "C-,") 'insert-comma)
 
 ; package lists
-(require 'package)
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("marmalade" . "http://marmalade-repo.org/packages/")
 			 ("melpa" . "http://melpa.milkbox.net/packages/")
 			 ("org" . "http://orgmode.org/elpa")))
-(package-initialize)
 
 ;; js2-mode
 (add-to-list 'auto-mode-alist '("\\.js\\'" . js2-mode))
